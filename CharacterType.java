@@ -12,7 +12,6 @@ public class CharacterType {
             System.out.println("Consonant");
         else
             System.out.println("Special Character");
-        scanner.close();
     }
 }
 
