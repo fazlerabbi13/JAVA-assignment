@@ -5,7 +5,6 @@ public class MultipleOfFive {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
         System.out.println(num % 5 == 0 ? "Multiple of 5" : "Not a multiple of 5");
-        scanner.close();
     }
 }
 
