@@ -5,8 +5,8 @@ public class TrafficLight {
         Scanner scanner = new Scanner(System.in);
         char signal = scanner.next().charAt(0);
         
-        if(signal == 'R')
-        System.out.println("Stop");
+             if(signal == 'R')
+             System.out.println("Stop");
             
             else if(signal=='Y')
              System.out.println("Ready");
@@ -16,9 +16,6 @@ public class TrafficLight {
 
             else
             System.out.println("Invalid input");
-
-            
-        }
-        
+        }  
     }
 
